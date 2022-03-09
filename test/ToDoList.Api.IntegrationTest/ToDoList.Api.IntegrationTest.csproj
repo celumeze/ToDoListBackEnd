@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.5.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="5.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.15" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\ToDoList.Api\ToDoList.Api.csproj" />
+    <ProjectReference Include="..\..\src\ToDoList.Application\ToDoList.Application.csproj" />
+    <ProjectReference Include="..\..\src\ToDoList.Domain\ToDoList.Domain.csproj" />
+    <ProjectReference Include="..\..\src\ToDoList.Persistence\ToDoList.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
