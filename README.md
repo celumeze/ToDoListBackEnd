@@ -13,4 +13,4 @@ Given more time I will ensure that integration tests are carried out on the pers
 
 ----Running the Application
 1. Navigate to the root of the application on command prompt and enter docker-compose up.
-2. Navigate to https://localhost:5001/swagger on web browser to test endpoints.
+
